@@ -1,0 +1,25 @@
+#cover-image{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+body{
+    background-color: #c1a36f;
+    font-family: 'open sans', sans-serif;
+    
+    
+}
+
+.bold-text{
+    font-weight: 800;
+    font-style: oblique;
+}
+
+p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+   
+}
