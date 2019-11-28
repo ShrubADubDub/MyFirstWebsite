@@ -1,3 +1,5 @@
+/*notes in css are done with slash,star and ended with star,slash*/
+
 #cover-image{
     max-width: 90%;
     display: block;
@@ -17,9 +19,38 @@ body{
     font-style: oblique;
 }
 
+
+/*base font doesnt like italics*/
 p{
     text-align: center;
     vertical-align: middle;
-    line-height: 90px;
-   
+    /* line-height: 90px;    */
+}
+
+
+footer{
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 90px;    */
+    background-color: brown;
+    padding: 20px 0px;
+    margin: 0 40%;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin: 10px 0px 10px;
+    background-color: darkgoldenrod;
+    width: 100%;
+
+}
+
+.little-container{
+display:flex;
+flex-direction:column;
+}
+
+.header{
+    color: cyan;
 }
