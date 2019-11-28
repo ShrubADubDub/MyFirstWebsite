@@ -1,34 +1,3 @@
-/*notes in css are done with slash,star and ended with star,slash*/
-
-#cover-image{
-    max-width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #2b2b28;
-    padding: 5px;
-   
-}
-
-h1{
-    text-align: center;
-    vertical-align: middle;
-    font-weight: 600;
-    font-size: medium;
-}
-
-
-body{
-    background-color: #f8f8f8;
-    font-family: 'open sans', sans-serif;
-    margin: 0px!important;
-    
-}
-
-.navigation{
-    margin
-
-}
 
 .bold-text{
     color: #e3b04b;
@@ -39,8 +8,29 @@ body{
     margin: 0;
 }
 
+#about-coverimg{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b2b28;
+    padding: 5px;
+}
 
-/*base font doesnt like italics*/
+h1{
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: medium;
+}
+
+body{
+    background-color: #f8f8f8;
+    font-family: 'open sans', sans-serif;
+    margin: 0px!important;
+}
+
+
 p{
     text-align: center;
     vertical-align: middle;
@@ -67,7 +57,6 @@ footer{
 .social-link{
     margin: 0 10px;
 }
-
 
 .container{
     display:flex;
@@ -96,30 +85,29 @@ flex-direction:column;
     font-weight: 500;
 }
 
-
 /* desktop */
 @media only screen and (min-width: 600px){
-.bulk{
-    padding: 0 20%;
-}
-body{
-    font-size: large;
-}
-}
- 
-/* A link that has not been visited */
-a:link {
-    color: #e3b04b;
-}
-/* A link that has been visited */
-a:visited {
-    color: #c48f26;
-}
-/* A link that is hovered on */
-a:hover {
-    color: rgb(8, 226, 255);
-}
-/* A link that is selected */
-a:active {
-    color: rgb(36, 247, 237);
-}
+    .bulk{
+        padding: 0 20%;
+    }
+    body{
+        font-size: large;
+    }
+    }
+     
+    /* A link that has not been visited */
+    a:link {
+        color: #e3b04b;
+    }
+    /* A link that has been visited */
+    a:visited {
+        color: #c48f26;
+    }
+    /* A link that is hovered on */
+    a:hover {
+        color: rgb(8, 226, 255);
+    }
+    /* A link that is selected */
+    a:active {
+        color: rgb(36, 247, 237);
+    }
