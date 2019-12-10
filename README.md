@@ -1,2 +1,0 @@
-# MyFirstWebsite
-See repository
